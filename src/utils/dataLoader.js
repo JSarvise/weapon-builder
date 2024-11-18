@@ -1,9 +1,10 @@
 export async function loadWeaponData() {
-  const response = await fetch("/data/weapons.json");
+  //Import weapons.json file
+  const response = await fetch("/data/JSON/weapon.json");
   return response.json();
 }
 
 export async function loadModData() {
-  const response = await fetch("/data/w_mod.json");
+  const response = await fetch("/data/JSON/w_mod.json");
   return response.json();
 }
