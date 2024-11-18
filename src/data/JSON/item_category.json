@@ -1,0 +1,76 @@
+{
+	"data" : {
+		"none" : {},
+		"weapon" : {
+			"debug_spawner" : "weapon",
+			"moddable_only" : true
+		},
+		"ammo" : {
+			"debug_spawner" : "ammo"
+		},
+		"medication" : {
+			"debug_spawner" : "medication"
+		},
+		"consumable" : {
+			"debug_spawner" : "consumable"
+		},
+		"barter" : {
+			"debug_spawner" : "generic"
+		},
+		"backpack" : {
+			"debug_spawner" : "equipment"
+		},
+		"armor" : {
+			"debug_spawner" : "equipment"
+		},
+		"grenade" : {
+			"debug_spawner" : "ammo"
+		},
+		"repair_weapon" : {
+			"debug_spawner" : "consumable"
+		},
+		"repair_armor" : {
+			"debug_spawner" : "consumable"
+		},
+		"injector" : {
+			"debug_spawner" : "medication"
+		},
+		"documents" : {
+			"debug_spawner" : null
+		},
+		"base_storage_use" : {
+			"debug_spawner" : null
+		},
+		"documents" : {
+			"debug_spawner" : null
+		},
+		"book" : {
+			"debug_spawner" : "book"
+		},
+		"book_r" : {
+			"debug_spawner" : "book"
+		},
+		"upgrade_base_kit" : {
+			"debug_spawner" : "module"
+		},
+		"key" : {
+			"debug_spawner" : "book"
+		},
+		"w_mod" : {
+			"debug_spawner" : "attachment"
+		},
+		"headset" : {
+			"debug_spawner" : "equipment"
+		},
+		"documents" : {
+			"debug_spawner" : null
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item_categories",
+	"version" : 0
+}

@@ -1,0 +1,1138 @@
+{
+	"data" : {
+		"blue_cigarettes" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Wilfon Cigarette",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_blue",
+				"sprite_inv" : "s_item_cigarettes_blue",
+				"stack_max" : 5,
+				"value" : 5000,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.2,
+				"sound" : "snd_accendino_1",
+				"thirst" : -4
+			}
+		},
+		"boar_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "boar meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0.2,
+				"sound" : "snd_eating_1",
+				"thirst" : -14
+			}
+		},
+		"bread" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bread",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread",
+				"sprite_inv" : "s_item_bread",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -3
+			}
+		},
+		"bread_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Bread",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread_rotten",
+				"sprite_inv" : "s_item_bread_rotten",
+				"stack_max" : 1,
+				"value" : 30,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0.15,
+				"sound" : "snd_eating_1",
+				"thirst" : -5
+			}
+		},
+		"butter" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Butter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_butter",
+				"sprite_inv" : "s_item_butter",
+				"stack_max" : 1,
+				"value" : 290,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 20,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"canned_beans" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Canned beans",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_beans",
+				"sprite_inv" : "s_item_beans",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 10
+			}
+		},
+		"cheese" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cheese",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese",
+				"sprite_inv" : "s_item_cheese",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"cheese_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Cheese",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese_rotten",
+				"sprite_inv" : "s_item_cheese_rotten",
+				"stack_max" : 1,
+				"value" : 40,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"chips" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Chips",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_chips",
+				"sprite_inv" : "s_item_chips",
+				"stack_max" : 1,
+				"value" : 230,
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"coke" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Generic cola",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_coke",
+				"sprite_inv" : "s_item_coke",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_cola",
+				"energy" : 7,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 13
+			}
+		},
+		"crackers" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Crackers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers",
+				"sprite_inv" : "s_item_crackers",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -2
+			}
+		},
+		"crackers_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Crackers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers_rotten",
+				"sprite_inv" : "s_item_crackers_rotten",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 3,
+				"fatigue" : 0,
+				"radiation" : 0.09,
+				"sound" : "snd_eating_1",
+				"thirst" : -3
+			}
+		},
+		"cup_coffee" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cup of coffee",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_coffee",
+				"sprite_inv" : "s_item_cup_coffee",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 13,
+				"radiation" : -0.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : 5
+			}
+		},
+		"cup_tea" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cup of Tea",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_tea",
+				"sprite_inv" : "s_item_cup_tea",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 8,
+				"radiation" : -0.19,
+				"sound" : "snd_drinking_1",
+				"thirst" : 10
+			}
+		},
+		"egg" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg",
+				"sprite_inv" : "s_item_egg",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 2
+			}
+		},
+		"egg_boiled" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Boiled egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_boiled",
+				"sprite_inv" : "s_item_egg_boiled",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_cooked",
+				"sprite_inv" : "s_item_egg_cooked",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_rotten",
+				"sprite_inv" : "s_item_egg_rotten",
+				"stack_max" : 1,
+				"value" : 35,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 3,
+				"fatigue" : 0,
+				"radiation" : 0.1,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"energy_drink" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Energy drink",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_energy_drink",
+				"sprite_inv" : "s_item_energy_drink",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 16,
+				"fatigue" : 18,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 15
+			}
+		},
+		"fruit_juice" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Fruit Juice",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_fruit_juice",
+				"sprite_inv" : "s_item_fruit_juice",
+				"stack_max" : 1,
+				"value" : 240,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"generic_chocolate" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Generic chocolate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_generic_chocolate",
+				"sprite_inv" : "s_item_generic_chocolate",
+				"stack_max" : 1,
+				"value" : 700,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 10,
+				"fatigue" : 5,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"hamburger" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Hamburger",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_hamburger",
+				"sprite_inv" : "s_item_hamburger",
+				"stack_max" : 1,
+				"value" : 1600,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 41,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meat_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meat_cooked",
+				"sprite_inv" : "s_item_meat_cooked",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meatballs" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "meatballs",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meatballs",
+				"sprite_inv" : "s_item_meatballs",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 17,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"milk" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Milk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk",
+				"sprite_inv" : "s_item_milk",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 8,
+				"fatigue" : 10,
+				"radiation" : -0.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"milk_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Milk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk_rotten",
+				"sprite_inv" : "s_item_milk_rotten",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 5,
+				"fatigue" : 5,
+				"radiation" : 0.35,
+				"sound" : "snd_drinking_1",
+				"thirst" : 10
+			}
+		},
+		"mre" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "MRE",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_mre",
+				"sprite_inv" : "s_item_mre",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_mre",
+				"energy" : 40,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 20
+			}
+		},
+		"pasta" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Pasta",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta",
+				"sprite_inv" : "s_item_pasta",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"pasta_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked pasta",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta_cooked",
+				"sprite_inv" : "s_item_pasta_cooked",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"raw_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Raw meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0.2,
+				"sound" : "snd_eating_1",
+				"thirst" : -14
+			}
+		},
+		"red_cigarettes" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Molbaro Cigarette",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_red",
+				"sprite_inv" : "s_item_cigarettes_red",
+				"stack_max" : 5,
+				"value" : 600,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.15,
+				"sound" : "snd_accendino_1",
+				"thirst" : -3
+			}
+		},
+		"red_wine" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Red Wine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wine_red",
+				"sprite_inv" : "s_item_wine_red",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : -0.2,
+				"sound" : "snd_drinking_1",
+				"thirst" : -8
+			}
+		},
+		"russian_chocolate" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Premium chocolate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_russian_chocolate",
+				"sprite_inv" : "s_item_russian_chocolate",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 15,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Salami",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame",
+				"sprite_inv" : "s_item_salame",
+				"stack_max" : 1,
+				"value" : 180,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Salami",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame_rotten",
+				"sprite_inv" : "s_item_salame_rotten",
+				"stack_max" : 1,
+				"value" : 28,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_butter" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with Butter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_butter",
+				"sprite_inv" : "s_item_sandwich_butter",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_meat",
+				"sprite_inv" : "s_item_sandwich_meat",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 22,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_salame" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with salami",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_salame",
+				"sprite_inv" : "s_item_sandwich_salame",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_wurstel" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with wurstel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_wurstel",
+				"sprite_inv" : "s_item_sandwich_wurstel",
+				"stack_max" : 1,
+				"value" : 320,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"stew_meat_beans" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Stew with meat and beans",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_stew_meat_beans",
+				"sprite_inv" : "s_item_stew_meat_beans",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 32,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 15
+			}
+		},
+		"tushonka_fish" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Canned fish",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_fish",
+				"sprite_inv" : "s_item_tushonka_fish",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 7
+			}
+		},
+		"tushonka_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Tushonka",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_meat",
+				"sprite_inv" : "s_item_tushonka_meat",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"vodka" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Vodka",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_vodka",
+				"sprite_inv" : "s_item_vodka",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : -1,
+				"sound" : "snd_drinking_1",
+				"thirst" : -17
+			}
+		},
+		"water_bottle" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bottle of water",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle",
+				"sprite_inv" : "s_item_water_bottle",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.05,
+				"sound" : "snd_drinking_1",
+				"thirst" : 25
+			}
+		},
+		"water_bottle_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bottle of rotten water",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle_rotten",
+				"sprite_inv" : "s_item_water_bottle_rotten",
+				"stack_max" : 1,
+				"value" : 40,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : 0.4,
+				"sound" : "snd_drinking_1",
+				"thirst" : 12
+			}
+		},
+		"whisky" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "whisky",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_whisky",
+				"sprite_inv" : "s_item_whisky",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : -2.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : -22
+			}
+		},
+		"wolf_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Wolf meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wolf_meat",
+				"sprite_inv" : "s_item_wolf_meat",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.35
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0.2,
+				"sound" : "snd_eating_1",
+				"thirst" : -14
+			}
+		},
+		"wurstel" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Wurstel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wurstel",
+				"sprite_inv" : "s_item_wurstel",
+				"stack_max" : 1,
+				"value" : 130,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"zombie_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "zombie meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_zombie_meat",
+				"sprite_inv" : "s_item_zombie_meat",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : 1,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

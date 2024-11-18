@@ -1,0 +1,228 @@
+{
+	"data" : {
+		"injector1" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Bloodsucker Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector1",
+				"sprite_inv" : "s_item_injector1",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : true,
+				"bleed_rec" : 25,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : -5,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : -10
+			}
+		},
+		"injector2" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Endurance Booster Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector2",
+				"sprite_inv" : "s_item_injector2",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 14400,
+				"hp_regen" : 0,
+				"hunger" : -15,
+				"hunger_regen" : -10,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 30,
+				"stamina_regen" : 50,
+				"thirst" : -20,
+				"thirst_regen" : -15
+			}
+		},
+		"injector3" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Body Fortifying Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector3",
+				"sprite_inv" : "s_item_injector3",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : -5,
+				"hunger_regen" : -10,
+				"max_hp" : 30,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : -35,
+				"thirst" : -10,
+				"thirst_regen" : -15
+			}
+		},
+		"injector4" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Burden Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector4",
+				"sprite_inv" : "s_item_injector4",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 18000,
+				"hp_regen" : 0,
+				"hunger" : -25,
+				"hunger_regen" : -25,
+				"max_hp" : 0,
+				"max_weight" : 20,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : -35,
+				"thirst_regen" : -25
+			}
+		},
+		"injector5" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Chow-Down Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector5",
+				"sprite_inv" : "s_item_injector5",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 600,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : 75,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : 75
+			}
+		},
+		"injector6" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Rad Shield Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector6",
+				"sprite_inv" : "s_item_injector6",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 25,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : -20,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 250,
+				"rad_regen" : 120,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : -20
+			}
+		},
+		"injector7" : {
+			"basic" : {
+				"categoria" : "injector",
+				"description" : "",
+				"name" : "Healing Stimulant Injector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector3",
+				"sprite_inv" : "s_item_injector3",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 1800,
+				"hp_regen" : 90,
+				"hunger" : -5,
+				"hunger_regen" : -10,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : -10,
+				"thirst_regen" : -15
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

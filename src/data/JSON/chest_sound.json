@@ -1,0 +1,43 @@
+{
+	"data" : {
+    	"cabinet" : {
+    		"open" : "snd_chest_cabinet_open",
+    		"close" : "snd_chest_cabinet_close"
+    	},
+    	"body" : {
+    		"open" : "snd_chest_body_open",
+    		"close" : "snd_chest_body_close"
+    	},
+    	"meat" : {
+    		"open" : "snd_chest_meat_open",
+    		"close" : "snd_chest_meat_close"
+    	},
+    	"bag" : {
+    		"open" : "snd_chest_bag_open",
+    		"close" : "snd_chest_bag_close"
+    	},
+    	"box" : {
+    		"open" : "snd_chest_box_open",
+    		"close" : "snd_chest_box_close"
+    	},
+    	"safe" : {
+    		"open" : "snd_chest_safe_open",
+    		"close" : "snd_chest_safe_close"
+    	},
+    	"cristallo" : {
+    		"open" : "snd_chest_cristallo_open",
+    		"close" : "snd_chest_cristallo_close"
+    	},
+    	"cash_register" : {
+    		"open" : "snd_chest_cash_register_open",
+    		"close" : "snd_chest_cash_register_close"
+    	}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "chest_sounds",
+	"version" : 0
+}

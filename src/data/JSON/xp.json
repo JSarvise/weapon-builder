@@ -1,0 +1,53 @@
+{
+	"data" : {
+		"levels" : [
+			{
+				"xp" : 500,
+				"skills" : []
+			},
+			{
+				"xp" : 1000,
+				"skills" : []
+			},
+			{
+				"xp" : 2000,
+				"skills" : []
+			},
+			{
+				"xp" : 3000,
+				"skills" : []
+			},
+			{
+				"xp" : 4000,
+				"skills" : []
+			},
+			{
+				"xp" : 5000,
+				"skills" : []
+			},
+			{
+				"xp" : 6000,
+				"skills" : []
+			},
+			{
+				"xp" : 7000,
+				"skills" : []
+			},
+			{
+				"xp" : 8000,
+				"skills" : []
+			},
+			{
+				"xp" : 9000,
+				"skills" : []
+			}
+		]
+	},
+	"metadata" : {
+		"author" : "Fern Nigro",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "xp",
+	"version" : 0
+}

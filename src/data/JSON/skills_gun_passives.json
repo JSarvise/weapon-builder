@@ -1,0 +1,118 @@
+{
+	"data" : {
+		"weapon_mastery_stats" : {
+			"damage" : {
+				"name" : "Damage"
+			},
+			"reload_speed" : {
+				"name" : "Reload Speed"
+			},
+			"ergonomics" : {
+				"name" : "Ergonomics"
+			},
+			"accuracy" : {
+				"name" : "Accuracy"
+			},
+			"recover_from_mouse_movement" : {
+				"name" : "Recover From Cursor Movement"
+			},
+			"knockback" : {
+				"name" : "Knockback"
+			},
+			"recoil" : {
+				"name" : "Recoil"
+			},
+			"min_range" : {
+				"name" : "Min Range"
+			},
+			"max_range" : {
+				"name" : "Max Range"
+			},
+			"scope_initial_drag" : {
+				"name" : "Scope Initial Drag"
+			},
+			"scope_drag" : {
+				"name" : "Scope Drag Reduction"
+			},
+			"scope_extra_damage" : {
+				"name" : "Scope Extra Damage"
+			},
+			"scope_alpha_speed" : {
+				"name" : "Scope View Speed"
+			},
+		},
+		"skill_gun_passives" : {
+			"pistol" : {
+				"type" : "pistol",
+				"skill" : "mastery_pistol",
+				"passives" : 
+					[
+						{"stat" : "ergonomics", 	"worst" : 1, "best" : 1.3},
+						{"stat" : "recover_from_mouse_movement", 		"worst" : 1, "best" : 1.25},
+						{"stat" : "reload_speed", 	"worst" : 1, "best" : 0.8},
+					],
+			},
+			"smg" : {
+				"type" : "smg",
+				"skill" : "mastery_smg",
+				"passives" : 
+					[
+						{"stat" : "recover_from_mouse_movement","worst" : 1, "best" : 1.25},
+						{"stat" : "reload_speed", 		"worst" : 1, "best" : 0.85},
+						{"stat" : "ergonomics", 		"worst" : 1, "best" : 1.1},
+					],
+			},
+			"shotgun" : {
+				"type" : "shotgun",
+				"skill" : "mastery_shotgun",
+				"passives" : 
+					[
+						{"stat" : "recover_from_mouse_movement", 			"worst" : 1, "best" : 1.25},
+						{"stat" : "reload_speed", 		"worst" : 1, "best" : 0.85},
+						{"stat" : "damage", 			"worst" : 1, "best" : 1.2},
+					],
+			},
+			"rifle" : {
+				"type" : "rifle",
+				"skill" : "mastery_rifle",
+				"passives" : 
+					[
+						{"stat" : "recoil", 		"worst" : 1, "best" : 0.9},
+						{"stat" : "accuracy", 		"worst" : 1, "best" : 1.1},
+						{"stat" : "min_range", 		"worst" : 1, "best" : 0.8},
+						{"stat" : "max_range", 		"worst" : 1, "best" : 1.2},
+					],
+			},
+			"dmr" : {
+				"type" : "dmr",
+				"skill" : "mastery_dmr",
+				"passives" : 
+					[
+						{"stat" : "recoil", 			"worst" : 1, "best" : 0.85},
+						{"stat" : "ergonomics", 		"worst" : 1, "best" : 1.15},
+						{"stat" : "min_range", 			"worst" : 1, "best" : 0.8},
+						{"stat" : "scope_initial_drag", 	"worst" : 1, "best" : 0.8},
+					],
+			},
+			"sniper" : {
+				"type" : "sniper",
+				"skill" : "mastery_sniper",
+				"passives" : 
+					[
+						{"stat" : "ergonomics", 		"worst" : 1, "best" : 1.25},
+						{"stat" : "scope_alpha_speed", 		"worst" : 1, "best" : 2.0},
+						{"stat" : "scope_extra_damage", 	"worst" : 1, "best" : 1.1},
+						{"stat" : "scope_drag", 		"worst" : 1, "best" : 0.5},
+						{"stat" : "recoil", 			"worst" : 1, "best" : 0.9},
+					],
+			},
+		},
+	},
+	"metadata" : {
+		"author" : "David Strachan",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "skills_gun_passives",
+	"version" : 0
+}
