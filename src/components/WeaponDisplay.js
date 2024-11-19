@@ -87,7 +87,7 @@ function WeaponDisplay() {
               onClick={() => handleWeaponClick(weapon)}
             >
               <UpscaledImage
-                src={`/assets/sprites/${weapon.basic.sprite_ingame}_0.png`}
+                src={`assets/sprites/${weapon.basic.sprite_ingame}_0.png`}
                 alt={weapon.basic.name}
                 scale={4} // Adjust the scale factor as needed
                 className="sprite"
@@ -103,7 +103,7 @@ function WeaponDisplay() {
         <div className="weapon-container">
           {/* Display base weapon image */}
           <UpscaledImage
-            src={`/assets/sprites/${selectedWeapon.basic.sprite_ingame}_0.png`}
+            src={`assets/sprites/${selectedWeapon.basic.sprite_ingame}_0.png`}
             alt={selectedWeapon.basic.name}
             scale={4}
             className="base-sprite"
@@ -116,7 +116,7 @@ function WeaponDisplay() {
             return selectedMod ? (
               <UpscaledImage
                 key={modKey}
-                src={`/assets/sprites/${selectedMod.basic.sprite_ingame}.png`}
+                src={`assets/sprites/${selectedMod.basic.sprite_ingame}.png`}
                 alt={selectedMod.basic.name}
                 scale={4}
                 className="mod-sprite"

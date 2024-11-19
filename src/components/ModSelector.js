@@ -84,7 +84,7 @@ function ModSelector({ mods, weaponId, onSelect }) {
                 <tr key={mod.key} onClick={() => onSelect(mod)}>
                   <td>
                     <UpscaledImage
-                      src={`/assets/sprites/${mod.basic.sprite_inv}_0.png`}
+                      src={`assets/sprites/${mod.basic.sprite_inv}_0.png`}
                       alt={mod.basic.name}
                       className="mod-icon"
                       scale={4}

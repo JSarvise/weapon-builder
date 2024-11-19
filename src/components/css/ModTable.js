@@ -19,7 +19,7 @@ const ModTable = ({ modItems }) => {
         {modItems.map((mod) => (
           <tr key={mod.name}>
             <td>
-              <img src={`/assets/sprites/${mod.icon}`} alt={mod.name} className="mod-icon" />
+              <img src={`assets/sprites/${mod.icon}`} alt={mod.name} className="mod-icon" />
             </td>
             <td>{mod.name}</td>
             <td>{mod.recoil || "-"}</td>
